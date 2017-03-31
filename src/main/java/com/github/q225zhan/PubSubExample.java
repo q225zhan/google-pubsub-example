@@ -11,7 +11,7 @@ import java.io.InputStreamReader;
  */
 public class PubSubExample {
     public static void main(String[] args) throws IOException {
-
+        // Need setup GOOGLE_APPLICATION_CREDENTIALS first
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         System.out.printf("Input project: ");
